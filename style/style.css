@@ -29,7 +29,6 @@ button{
     height: 44px;
 }
 .orange-btn{
-    /*position: relative;*/
     background: #F46752;
     border: 1px solid rgba(29, 37, 60, 0.2);
     border-radius: 4px;
@@ -42,27 +41,7 @@ button{
     color: #FFFFFF;
     padding-right: 10px;
 }
-/*.orange-btn:before{*/
-/*    content: "";*/
-/*    position: absolute;*/
-/*    width: 29px;*/
-/*    height: 1px;*/
-/*    background: #FFFFFF;*/
-/*    right: 15px;*/
-/*   top: 28px;*/
-/*    margin: 0 auto;*/
-/*}*/
-/*.orange-btn:after{*/
-/*    content: "";*/
-/*    position: absolute;*/
-/*    border-bottom: 1px solid #FFFFFF;*/
-/*    border-right: 1px solid #FFFFFF;*/
-/*    height: 10px;*/
-/*    width: 10px;*/
-/*    right: 13px;*/
-/*    top: 22px;*/
-/*    transform: rotate(-28deg);*/
-/*}*/
+
 .container{
     max-width: 1120px;
     padding: 0 10px;
@@ -148,7 +127,7 @@ button{
     background: #F9F5F2;
     padding: 85px 0;
 }
-.secure__img-part{
+.secure__left-part{
     padding-left: 52px;
 }
 .secure__img{
@@ -211,7 +190,7 @@ button{
 .technology__desk{
     width: 483px;
 }
-.technology__img-part{
+.technology__right-part{
     padding-left: 5px;
     position: relative;
 }
@@ -221,7 +200,7 @@ button{
     height: 510px;
     z-index: 1;
 }
-.technology__remark{
+.technology__hand{
     position: absolute;
     bottom: 0;
     left: -35px;
@@ -237,12 +216,3 @@ button{
     align-items: center;
     justify-content: center;
 }
-.technology__droplets{
-
-    position: absolute;
-  left: -45px;
-    top: -32px;
-    z-index: -1;
-}
-
-
